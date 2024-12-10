@@ -1,0 +1,27 @@
+{
+  "name": "user-service",
+  "version": "1.0.0",
+  "description": "A Node.js application for user management",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.5.0",
+    "body-parser": "^1.20.0",
+    "express-validator": "^7.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "knowledge-graph": "^1.0.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "MIT",
+  "private": true,
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
