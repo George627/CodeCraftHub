@@ -1,7 +1,9 @@
+const knowledgeGraph = require('../models/knowledgeGraph');
 const mongoose = require('mongoose');
 
 const knowledgeGraphSchema = new mongoose.Schema({
-  // knowledge graph fields...
+  name: String,
+  // other fields...
 });
 
 module.exports = mongoose.model('KnowledgeGraph', knowledgeGraphSchema);
